@@ -15,7 +15,7 @@
     "coveralls": "^3.0.6",
     "eslint-config-xo-overrides": "^1.4.0",
     "nyc": "^14.1.1",
-    "xo": "^0.25.3"
+    "xo": "^0.30.0"
   },
   "xo": {
     "extends": [
