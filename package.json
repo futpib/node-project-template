@@ -5,7 +5,7 @@
   "license": "TODO",
   "type": "module",
   "scripts": {
-    "test": "xo && nyc ava"
+    "test": "xo && c8 ava"
   },
   "homepage": "https://github.com/futpib/TODO",
   "ava": {
@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "ava": "^5.3.1",
+    "c8": "^8.0.0",
     "coveralls": "^3.1.1",
     "eslint-config-xo-overrides": "^1.5.0",
-    "nyc": "^15.1.0",
     "xo": "^0.55.0"
   },
   "xo": {
