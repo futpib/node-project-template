@@ -12,6 +12,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ava/typescript@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@ava/typescript@npm:4.1.0"
+  dependencies:
+    escape-string-regexp: ^5.0.0
+    execa: ^7.1.1
+  checksum: b0e0aa2a5d3bc8514dea73a2f8884bc6011c98d28e9f476dbfbdbab679f4ac17ac0d4ecb01ca9a6d6553db81a0e7786584625ec11cbd0b4e2743844470742160
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0":
   version: 7.0.0
   resolution: "@babel/code-frame@npm:7.0.0"
@@ -449,10 +459,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "TODO@workspace:."
   dependencies:
+    "@ava/typescript": ^4.1.0
     ava: ^5.3.1
     c8: ^8.0.0
     coveralls: ^3.1.1
     eslint-config-xo-overrides: ^1.5.0
+    typescript: ^5.1.6
     xo: ^0.55.0
   languageName: unknown
   linkType: soft
