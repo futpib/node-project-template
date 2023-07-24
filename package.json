@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "TODO",
+  "type": "module",
   "scripts": {
     "test": "xo && nyc ava"
   },
@@ -11,11 +12,11 @@
     "verbose": true
   },
   "devDependencies": {
-    "ava": "^3.15.0",
-    "coveralls": "^3.1.0",
+    "ava": "^5.3.1",
+    "coveralls": "^3.1.1",
     "eslint-config-xo-overrides": "^1.5.0",
     "nyc": "^15.1.0",
-    "xo": "^0.38.2"
+    "xo": "^0.55.0"
   },
   "xo": {
     "extends": [
