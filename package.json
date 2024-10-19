@@ -23,5 +23,5 @@
       "eslint-config-xo-overrides"
     ]
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.8.6"
 }
