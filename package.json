@@ -16,7 +16,8 @@
         "src/": "build/"
       },
       "compile": false
-    }
+    },
+    "verbose": true
   },
   "devDependencies": {
     "@ava/typescript": "^5.0.0",
