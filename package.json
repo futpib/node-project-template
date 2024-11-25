@@ -36,5 +36,5 @@
       "ava/no-ignored-test-files": "off"
     }
   },
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.3"
 }
