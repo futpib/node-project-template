@@ -778,9 +778,9 @@ __metadata:
     ava: "npm:^6.4.1"
     c8: "npm:^10.1.3"
     coveralls: "npm:^3.1.1"
-    eslint-config-xo-typescript-overrides: "npm:^2.0.2"
-    typescript: "npm:^5.8.3"
-    xo: "npm:^1.2.1"
+    eslint-config-xo-typescript-overrides: "npm:^2.0.3"
+    typescript: "npm:^5.9.2"
+    xo: "npm:^1.2.2"
   languageName: unknown
   linkType: soft
 
@@ -1996,12 +1996,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-xo-overrides@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "eslint-config-xo-overrides@npm:2.1.0"
+"eslint-config-xo-overrides@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "eslint-config-xo-overrides@npm:2.1.1"
   bin:
     eslint-config-xo-overrides: cli.js
-  checksum: 10/78d4845d50de9b4f297c7fa497826379ae8dba77f99d3f06d935aca8d5bb9e5e416544dd0e96dc6e90e3c3b96d6e6f632ff69b9c26c50a03267ef222bb10198f
+  checksum: 10/a2ff445f87d491659f7dfca874ce60219f0c4461e36785146c2cd4945a188560acd3c50a6cd48cf8c0a7d59a87505769bca489a794aa9e9d241c6393908ca380
   languageName: node
   linkType: hard
 
@@ -2017,14 +2017,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-xo-typescript-overrides@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "eslint-config-xo-typescript-overrides@npm:2.0.2"
+"eslint-config-xo-typescript-overrides@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "eslint-config-xo-typescript-overrides@npm:2.0.3"
   dependencies:
-    eslint-config-xo-overrides: "npm:^2.1.0"
+    eslint-config-xo-overrides: "npm:^2.1.1"
   bin:
     eslint-config-xo-typescript-overrides: cli.js
-  checksum: 10/27f0747da81b2fbf730d27259da4382b5e5a5351234f49767a0825b39af62f1a90e3d2f92e319af257c188c2a4f3f7380859056fc9f42c7b61ea401b1cf16de6
+  checksum: 10/306df19d8352050ad0768fa3ca99743fd07b3c1a4e4a759a4243da6687b6cd7b8b2525fd5cebdca6a273bb7ced0d3da3bb331ca890e96dbf200d1fd0b5c67b4e
   languageName: node
   linkType: hard
 
@@ -5243,23 +5243,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.8.3":
-  version: 5.8.3
-  resolution: "typescript@npm:5.8.3"
+"typescript@npm:^5.9.2":
+  version: 5.9.2
+  resolution: "typescript@npm:5.9.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/65c40944c51b513b0172c6710ee62e951b70af6f75d5a5da745cb7fab132c09ae27ffdf7838996e3ed603bb015dadd099006658046941bd0ba30340cc563ae92
+  checksum: 10/cc2fe6c822819de5d453fa25aa9f32096bf70dde215d481faa1ad84a283dfb264e33988ed8f6d36bc803dd0b16dbe943efa311a798ef76d5b3892a05dfbfd628
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.8.3#optional!builtin<compat/typescript>":
-  version: 5.8.3
-  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"
+"typescript@patch:typescript@npm%3A^5.9.2#optional!builtin<compat/typescript>":
+  version: 5.9.2
+  resolution: "typescript@patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/b9b1e73dabac5dc730c041325dbd9c99467c1b0d239f1b74ec3b90d831384af3e2ba973946232df670519147eb51a2c20f6f96163cea2b359f03de1e2091cc4f
+  checksum: 10/bd810ab13e8e557225a8b5122370385440b933e4e077d5c7641a8afd207fdc8be9c346e3c678adba934b64e0e70b0acf5eef9493ea05170a48ce22bef845fdc7
   languageName: node
   linkType: hard
 
@@ -5547,9 +5547,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xo@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "xo@npm:1.2.1"
+"xo@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "xo@npm:1.2.2"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.5.0"
     "@sindresorhus/tsconfig": "npm:^7.0.0"
@@ -5584,7 +5584,7 @@ __metadata:
     typescript-eslint: "npm:^8.37.0"
   bin:
     xo: dist/cli.js
-  checksum: 10/0fccc84225e6cc9ded1667835561c85d7a53e2e9530653df1280b95dd43ac70d1b143edba645cec38859e5a400f88f7f3948fe0b5df139b8bc968e9c6df6e838
+  checksum: 10/4018579508e6fe93d7b6c7d4461f7a7b9e331e453570834ac340ef41b16ffb4578484db35be4c5dc0905449f6294f0d38f6835d79e80d227ac6d176d574114c2
   languageName: node
   linkType: hard
 
