@@ -1,7 +1,9 @@
 name: CI
 on:
-  - push
-  - pull_request
+  push:
+    branches:
+      - master
+  pull_request:
 jobs:
   test:
     name: Node.js ${{ matrix.node-version }}
@@ -11,8 +13,8 @@ jobs:
       matrix:
         node-version:
           - 22
-          - 20
-          - 18
+          - 24
+          - 25
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
